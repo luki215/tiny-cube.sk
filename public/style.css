@@ -1,3 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
     --primary: #419D78
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
 }
