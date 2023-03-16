@@ -552,6 +552,22 @@ video {
   margin-right: auto;
 }
 
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
 .mt-auto {
   margin-top: auto;
 }
@@ -560,16 +576,8 @@ video {
   display: flex;
 }
 
-.h-3\/5 {
-  height: 60%;
-}
-
 .h-screen {
   height: 100vh;
-}
-
-.max-w-md {
-  max-width: 28rem;
 }
 
 .flex-grow {
@@ -582,10 +590,6 @@ video {
 
 .list-disc {
   list-style-type: disc;
-}
-
-.list-none {
-  list-style-type: none;
 }
 
 .flex-col {
@@ -609,18 +613,9 @@ video {
   background-color: rgb(65 157 120 / var(--tw-bg-opacity));
 }
 
-.p-4 {
-  padding: 1rem;
-}
-
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
-}
-
-.py-11 {
-  padding-top: 2.75rem;
-  padding-bottom: 2.75rem;
 }
 
 .py-40 {
@@ -628,26 +623,16 @@ video {
   padding-bottom: 10rem;
 }
 
-.py-8 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+.pb-20 {
+  padding-bottom: 5rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
 }
 
 .pt-4 {
   padding-top: 1rem;
-}
-
-.pl-4 {
-  padding-left: 1rem;
-}
-
-.pl-5 {
-  padding-left: 1.25rem;
-}
-
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
 }
 
 .text-3xl {
@@ -655,9 +640,23 @@ video {
   line-height: 2.25rem;
 }
 
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.font-semibold {
+  font-weight: 600;
 }
 
 .text-green-50 {
@@ -672,8 +671,5 @@ video {
 
 body {
   font-family: 'Roboto', sans-serif;
-}
-
-.hover\:list-disc:hover {
-  list-style-type: disc;
+  font-weight: 100;
 }
